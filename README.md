@@ -1,10 +1,18 @@
 # SwiftCollab Algorithmic Optimization Suite
 
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/FCHEHIDI/AlgorithmicOptimizationI)
+[![Language](https://img.shields.io/badge/language-C%23-blue)](https://docs.microsoft.com/en-us/dotnet/csharp/)
+[![Framework](https://img.shields.io/badge/framework-.NET%209.0-purple)](https://dotnet.microsoft.com/)
+
 🚀 **Complete optimization solutions for SwiftCollab's growing collaboration platform**
 
 ## 📋 Project Overview
 
-This comprehensive project showcases multiple algorithmic optimizations for SwiftCollab's platform, demonstrating advanced problem-solving skills and LLM-assisted development across different domains.
+This comprehensive project showcases multiple algorithmic optimizations for SwiftCollab's platform, featuring:
+
+1. **🌳 Binary Tree Optimization** - AVL self-balancing tree for task priority management
+2. **📋 API Request Scheduling** - Min-heap priority queue with concurrent processing
+3. **🧪 Comprehensive Testing** - Validation, performance benchmarks, and automated reporting
 
 ## 🗂️ Project Structure
 
