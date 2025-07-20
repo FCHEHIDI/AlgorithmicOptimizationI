@@ -1,0 +1,87 @@
+SWIFTCOLLAB TASK SCHEDULER - LLM OPTIMIZED EXECUTION LOG
+=======================================================================
+Generated: 2025-07-20 01:22:10
+Scheduler Version: OptimizedTaskScheduler v2.0
+Max Retries Configured: 3
+
+OVERALL PERFORMANCE SUMMARY
+-----------------------------------------
+Total Tasks Processed: 9
+Successful Tasks: 5
+Failed Tasks: 1
+Retried Tasks: 3
+Success Rate: 55.6%
+Total Execution Time: 856ms
+Average Task Time: 95.11ms
+
+PRIORITY-BASED PERFORMANCE METRICS
+-----------------------------------------
+Priority 1:
+  • Total Tasks: 2
+  • Success Rate: 100.0%
+  • Avg Execution Time: 51.00ms
+  • Min/Max Time: 50ms / 52ms
+Priority 2:
+  • Total Tasks: 1
+  • Success Rate: 0.0%
+  • Avg Execution Time: 79.00ms
+  • Min/Max Time: 9223372036854775807ms / -9223372036854775808ms
+Priority 3:
+  • Total Tasks: 1
+  • Success Rate: 100.0%
+  • Avg Execution Time: 215.00ms
+  • Min/Max Time: 215ms / 215ms
+Priority 5:
+  • Total Tasks: 1
+  • Success Rate: 100.0%
+  • Avg Execution Time: 100.00ms
+  • Min/Max Time: 100ms / 100ms
+Priority 8:
+  • Total Tasks: 1
+  • Success Rate: 100.0%
+  • Avg Execution Time: 114.00ms
+  • Min/Max Time: 114ms / 114ms
+
+DETAILED EXECUTION LOG
+-----------------------------------------
+[2025-07-20 01:22:09.294] OptimizedTaskScheduler initialized with max retries: 3
+[2025-07-20 01:22:09.305] SUCCESS: Task 'Priority User Authentication' added with priority 1
+[2025-07-20 01:22:09.305] SUCCESS: Task 'Standard Data Processing' added with priority 5
+[2025-07-20 01:22:09.305] ERROR: Attempted to add null or empty task - rejected
+[2025-07-20 01:22:09.305] SUCCESS: Task 'Fail Task - Critical Error' added with priority 2
+[2025-07-20 01:22:09.305] SUCCESS: Task 'Report Generation' added with priority 3
+[2025-07-20 01:22:09.305] ERROR: Attempted to add null or empty task - rejected
+[2025-07-20 01:22:09.305] SUCCESS: Task 'Background Maintenance' added with priority 8
+[2025-07-20 01:22:09.305] SUCCESS: Task 'Urgent System Health Check' added with priority 1
+[2025-07-20 01:22:09.306] Starting task processing. Queue contains 6 tasks.
+[2025-07-20 01:22:09.308] Processing task: Priority User Authentication (Attempt 1)
+[2025-07-20 01:22:09.362] Task 'Priority User Authentication' executed successfully in 52ms
+[2025-07-20 01:22:09.362] SUCCESS: Task 'Priority User Authentication' completed successfully
+[2025-07-20 01:22:09.362] Processing task: Urgent System Health Check (Attempt 1)
+[2025-07-20 01:22:09.412] Task 'Urgent System Health Check' executed successfully in 50ms
+[2025-07-20 01:22:09.412] SUCCESS: Task 'Urgent System Health Check' completed successfully
+[2025-07-20 01:22:09.413] Processing task: Fail Task - Critical Error (Attempt 1)
+[2025-07-20 01:22:09.495] WARNING: Task 'Fail Task - Critical Error' failed - Task 'Fail Task - Critical Error' is designed to fail - handling gracefully
+[2025-07-20 01:22:09.495] RETRY: Task 'Fail Task - Critical Error' scheduled for retry 1/3
+[2025-07-20 01:22:09.495] Processing task: Report Generation (Attempt 1)
+[2025-07-20 01:22:09.710] Task 'Report Generation' executed successfully in 215ms
+[2025-07-20 01:22:09.711] SUCCESS: Task 'Report Generation' completed successfully
+[2025-07-20 01:22:09.711] Processing task: Standard Data Processing (Attempt 1)
+[2025-07-20 01:22:09.812] Task 'Standard Data Processing' executed successfully in 100ms
+[2025-07-20 01:22:09.812] SUCCESS: Task 'Standard Data Processing' completed successfully
+[2025-07-20 01:22:09.812] Processing task: Background Maintenance (Attempt 1)
+[2025-07-20 01:22:09.927] Task 'Background Maintenance' executed successfully in 114ms
+[2025-07-20 01:22:09.928] SUCCESS: Task 'Background Maintenance' completed successfully
+[2025-07-20 01:22:09.928] Processing 1 retry tasks...
+[2025-07-20 01:22:10.044] Processing task: Fail Task - Critical Error (Attempt 2)
+[2025-07-20 01:22:10.128] WARNING: Task 'Fail Task - Critical Error' failed - Task 'Fail Task - Critical Error' is designed to fail - handling gracefully
+[2025-07-20 01:22:10.128] RETRY: Task 'Fail Task - Critical Error' scheduled for retry 2/3
+[2025-07-20 01:22:10.128] Processing 1 retry tasks...
+[2025-07-20 01:22:10.329] Processing task: Fail Task - Critical Error (Attempt 3)
+[2025-07-20 01:22:10.411] WARNING: Task 'Fail Task - Critical Error' failed - Task 'Fail Task - Critical Error' is designed to fail - handling gracefully
+[2025-07-20 01:22:10.412] RETRY: Task 'Fail Task - Critical Error' scheduled for retry 3/3
+[2025-07-20 01:22:10.412] Processing 1 retry tasks...
+[2025-07-20 01:22:10.816] Processing task: Fail Task - Critical Error (Attempt 4)
+[2025-07-20 01:22:10.895] WARNING: Task 'Fail Task - Critical Error' failed - Task 'Fail Task - Critical Error' is designed to fail - handling gracefully
+[2025-07-20 01:22:10.896] FAILED: Task 'Fail Task - Critical Error' failed permanently after 3 attempts
+[2025-07-20 01:22:10.896] Task processing completed in 1590.75ms
