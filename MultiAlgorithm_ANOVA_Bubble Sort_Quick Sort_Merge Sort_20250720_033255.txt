@@ -1,0 +1,55 @@
+═══════════════════════════════════════════════════════════════════════════════
+📊 SWIFTCOLLAB MULTI-ALGORITHM STATISTICAL COMPARISON (ANOVA)
+═══════════════════════════════════════════════════════════════════════════════
+Generated: 2025-07-20 03:32:55
+Test Execution: 2025-07-20 03:32:55
+
+=== MULTI-ALGORITHM COMPARISON (ANOVA) ===
+Test Date: 2025-07-20 03:32:55
+Algorithms Tested: Bubble Sort, Quick Sort, Merge Sort, Hybrid Sort
+
+OVERALL F-TEST:
+  F-statistic = 45.7306
+  p-value = 0.000000
+  Result: Significant differences detected
+
+BEST PERFORMING ALGORITHM:
+  Winner: Hybrid Sort
+  Performance: 0.023ms average
+
+PAIRWISE COMPARISONS:
+
+
+═══════════════════════════════════════════════════════════════════════════════
+📈 DETAILED PAIRWISE ANALYSIS
+═══════════════════════════════════════════════════════════════════════════════
+🔍 Bubble Sort vs Quick Sort:
+   p-value: 0.999997 (not significant)
+   Effect size: 2.644 (Large effect)
+   Performance difference: 227.0%
+
+🔍 Bubble Sort vs Merge Sort:
+   p-value: 0.999937 (not significant)
+   Effect size: 2.001 (Large effect)
+   Performance difference: 111.8%
+
+🔍 Bubble Sort vs Hybrid Sort:
+   p-value: 0.999998 (not significant)
+   Effect size: 2.741 (Large effect)
+   Performance difference: 256.6%
+
+🔍 Quick Sort vs Merge Sort:
+   p-value: 1.000000 (not significant)
+   Effect size: 2.468 (Large effect)
+   Performance difference: 54.4%
+
+🔍 Quick Sort vs Hybrid Sort:
+   p-value: 0.733994 (not significant)
+   Effect size: 0.409 (Small effect)
+   Performance difference: 9.0%
+
+🔍 Merge Sort vs Hybrid Sort:
+   p-value: 1.000000 (not significant)
+   Effect size: 2.854 (Large effect)
+   Performance difference: 68.4%
+
