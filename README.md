@@ -1,8 +1,8 @@
-# 🚀 SwiftCollab Algorithmic Optimizatio## 📋 Project Overview
+#  SwiftCollab Algorithmic Optimization 
+
+![AlgorithmicOptimizationI](binarytree.png)
 
 ### 🌟 Dual-Branch Architecture
-
-**Choose the right complexity for your needs:**
 
 | Feature | Main Branch | Statistical Branch |
 |---------|-------------|-------------------|
@@ -42,6 +42,8 @@ This comprehensive project showcases multiple algorithmic optimizations for Swif
 > **Enterprise-grade algorithmic optimization with dual-branch architecture: Choose your complexity level**
 
 ## 🎯 Two Powerful Approaches
+
+![TreeGreenGIF](https://github.com/user-attachments/assets/d7947f52-3f8c-4e00-ac14-322004b86f81)
 
 ### 🔧 Main Branch (Accessible & Clean)
 **Perfect for learning, prototyping, and rapid implementation**
