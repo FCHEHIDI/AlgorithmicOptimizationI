@@ -43,8 +43,6 @@ This comprehensive project showcases multiple algorithmic optimizations for Swif
 
 ## 🎯 Two Powerful Approaches
 
-![TreeGreenGIF](https://github.com/user-attachments/assets/d7947f52-3f8c-4e00-ac14-322004b86f81)
-
 ### 🔧 Main Branch (Accessible & Clean)
 **Perfect for learning, prototyping, and rapid implementation**
 - Simple, readable algorithmic optimizations
